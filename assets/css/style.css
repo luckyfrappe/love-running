@@ -242,6 +242,7 @@ main {
 
 /* Media query: screens 1200px and larger */
 @media screen and (min-width: 1200px) {
+    /* Reason section */
     #benefits {
         display: flex;
         flex-direction: row;
