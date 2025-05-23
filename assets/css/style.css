@@ -174,8 +174,10 @@ main {
     padding: 15px;
     text-align: center;
     /* Responsive */
-    
+    flex-basis: 200px;
     flex-grow: 1;
+    /* Create a white grid of meetup dives over the background image */
+    border: 2px solid white;
 }
 
 #times h3 {
