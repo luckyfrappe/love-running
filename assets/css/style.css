@@ -219,14 +219,44 @@ main {
     color: #ffffff;
     background-color: rgba(60,60,60, 0.6);
     padding: 30px;
-    display: flex;
-    flex-direction: column;
+ 
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+    height: 25px;
+    width: 100%;
 }
 
 .radio-buttons {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+    cursor: pointer;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
 }
 
 /* Footer */
@@ -304,6 +334,27 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /* Adjusting forms placement and max size */
+    #signup {
+        padding: 150px 10%;
+
+    }
+
+    #signup-form {
+        max-width: 400px;
+    }
+
+    /* Add hover effect on forms element */
+    .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+    cursor: pointer;
+}
+
+   text-input:hover {
+    border-color: #f16c6b;
+}
 }
 
 /* Hero */
